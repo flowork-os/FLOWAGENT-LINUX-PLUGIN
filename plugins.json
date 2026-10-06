@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "updated_at": "2026-10-06T14:21:33.321Z",
+  "updated_at": "2026-10-06T23:48:42.377Z",
   "repo": "flowork-os/FLOWAGENT-LINUX-PLUGIN",
   "plugins": [
     {
@@ -92,6 +92,22 @@
         "port_env": "FLOWORK_APP_PORT",
         "default_port": 17895
       }
+    },
+    {
+      "id": "test-ping",
+      "name": "Test Ping",
+      "version": "1.0.0",
+      "author": "@awenkaudico",
+      "description": "Connectivity Test",
+      "category": "General",
+      "icon": "🧩",
+      "entry": {
+        "gui": "gui/index.html"
+      },
+      "ipc": {
+        "port_env": "FLOWORK_APP_PORT"
+      },
+      "updated_at": "2026-10-06T23:48:42.377Z"
     }
   ]
 }
